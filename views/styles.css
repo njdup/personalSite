@@ -1,0 +1,88 @@
+/* Stylesheet for Nicholas Dupoux's personal website */
+
+h1, h2, h3{
+    font: bold 1em 'Trebuchet MS';
+}
+
+h1 {
+   font-size: 1.6em;
+   color: #65944A;
+}
+
+h2 {
+   font-size: 1.4em;
+   color: #65944A;
+}
+
+h3 {
+   font-size: 1.1em;
+   text-transform: uppercase;
+}
+
+li {
+   background-color: #4D4F53;
+   padding: 2px;
+   border: solid 1px black;
+}
+
+
+a:link, a:visited { 
+	background: inherit;
+	color: #ffffff;
+	text-decoration: none;
+}		 
+
+a:hover{
+	background: inherit;
+	text-decoration: underline;
+}
+
+
+
+/* Header */
+
+.header {	
+	height: 100px;
+	text-align: left;
+	background-color: #8C1515;
+}
+
+.header-content{
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: 760px;
+}
+
+#logo{
+	position: absolute;
+	font: bold 46px 'Trebuchet MS';
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	top:0;
+	left: 0px;
+}
+
+#slogan {
+	position: absolute;
+	font: bold 12px 'Trebuchet Ms';
+	text-transform: none;
+	color: #ffffff;
+	margin: 0; padding: 0;
+	top: 55px;
+	left: 0px;
+}
+
+.header-content ul{
+	position: absolute;
+	font: bolder 1.3em 'Trebuchet MS';
+	color: #8C1515;
+	list-style: none;
+	margin: 0; padding: 0;
+	right: 125px; top: 20px;
+}
+
+.header-content li{
+	display: inline;
+}
