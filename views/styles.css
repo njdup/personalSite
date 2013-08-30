@@ -98,7 +98,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	color: #8C1515;
 	list-style: none;
 	margin: 0; padding: 0;
-	right: 20px; top: 20px;
+	right: -25px; top: 20px;
 }
 
 .header-content li{
@@ -146,6 +146,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	 margin-right: 100px;
 	 margin-top: 0;
 	 background-color: white;
+	 overflow: hidden;
+	 padding-right: 10px;
+	 padding-left: 10px;
 }
 
 .welcome-message{
@@ -174,7 +177,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 }
 
 .content-divider.first-divide{
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 /* Section images */
@@ -185,5 +188,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 }
 
 .section-image.pull-left{
-	margin-left: 20px;
+	margin: 20px;
+	margin-top: 0;
+	float: left;
+}
+
+
+/*Section content */
+
+.message{
+
+}
+.section-heading{
+	font: bold 24px 'Bubbler One';
+	display: inline;
+	margin-left: 10px;
+	font-weight: 100;
+	line-height: 1;
+}
+
+.section-content{
+	display: inline;
+	font: 14px 'Open Sans';
+	margin-right: 10px;
 }
