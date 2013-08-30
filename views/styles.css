@@ -1,4 +1,4 @@
-/* Stylesheet for Nicholas Dupoux's personal website */
+	/* Stylesheet for Nicholas Dupoux's personal website */
 
 h1, h2, h3{
     font: bold 1em 'Trebuchet MS';
@@ -37,6 +37,10 @@ a:hover{
 	text-decoration: underline;
 }
 
+body{
+	margin:0;
+}
+
 
 
 /* Header */
@@ -44,29 +48,43 @@ a:hover{
 .header {	
 	height: 100px;
 	text-align: left;
-	background-color: #8C1515;
-}
+	background: rgb(53,106,160); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(53,106,160,1) 0%, rgba(53,106,160,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(53,106,160,1)), color-stop(100%,rgba(53,106,160,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+
+	border-bottom: solid 4px black;
+}	
 
 .header-content{
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
 	width: 760px;
+	top: 10px;
 }
 
 #logo{
 	position: absolute;
-	font: bold 46px 'Trebuchet MS';
+	font: bold 46px 'Bubbler One';
 	color: #ffffff;
 	margin: 0;
 	padding: 0;
 	top:0;
-	left: 0px;
+	left: 35px;
+}
+
+#logo a:hover{
+      text-decoration: none;
 }
 
 #slogan {
 	position: absolute;
-	font: bold 12px 'Trebuchet Ms';
+	font: bold 14px 'Bubbler One';
 	text-transform: none;
 	color: #ffffff;
 	margin: 0; padding: 0;
@@ -76,13 +94,96 @@ a:hover{
 
 .header-content ul{
 	position: absolute;
-	font: bolder 1.3em 'Trebuchet MS';
+	font: bolder 1.3em 'Bubbler One';
 	color: #8C1515;
 	list-style: none;
 	margin: 0; padding: 0;
-	right: 125px; top: 20px;
+	right: 20px; top: 20px;
 }
 
 .header-content li{
 	display: inline;
+}
+
+.header-content ul li a:hover{
+	background-color: #ffffff;
+	color: black;
+	text-decoration: none;
+}
+
+/* Banner Image */
+
+.banner{
+	width: 100%;
+	height: 360px;
+	background-color: black;
+	border-bottom: solid 4px black;
+}
+
+.banner img {
+       width: 80%;
+       height: 100%;
+       padding-left: 10%;
+       padding-right: 10%;
+}
+
+/* Main Content */
+
+.content-wrapper{
+	background: rgb(53,106,160); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(53,106,160,1) 0%, rgba(53,106,160,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(53,106,160,1)), color-stop(100%,rgba(53,106,160,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); /* IE6-9 */
+	margin: 0;
+}
+
+.content {
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 margin-top: 0;
+	 background-color: white;
+}
+
+.welcome-message{
+	margin-left: 25%;
+	margin-right: 25%;
+	border: solid 2px white;
+}
+
+.welcome-message h1{
+	text-align: center;
+	margin-bottom: 5px;
+	color: #356aa0;
+	font: bold 4em 'Bubbler One';
+	margin-top: 10px;
+}
+
+.welcome-message p{
+	text-align: center;
+	margin-top: 5px;
+}
+
+/* Content section divider */
+
+.content-divider{
+	margin: 60px;
+}
+
+.content-divider.first-divide{
+	margin-top: 30px;
+}
+
+/* Section images */
+
+.section-image{
+	height: 300px;
+	width: 300px;
+}
+
+.section-image.pull-left{
+	margin-left: 20px;
 }
