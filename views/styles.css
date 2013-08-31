@@ -214,6 +214,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	float: right;
 	margin-top:0;
 	margin: 20px;
+	margin-left: 0;
 }
 
 /* Section styling */
@@ -240,6 +241,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	display: inline;
 	font: 14px 'Open Sans';
 	margin-right: 10px;
+}
+
+.section-content.push-right{
+	margin-left: 2%;
+	display: inline-block;
 }
 
 #email-link{
@@ -275,11 +281,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	margin-left: 5%;
 }
 
-/* .icon.left{
-	margin-left: 5%;
-} */
 
 .icon-section a:hover{
+      margin: 16px;
+      margin-left: 5%;
       border: 4px solid #65944A;
       border-radius: 100px;
 }
@@ -307,4 +312,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	font-family:'Bubbler One';
 	text-align: center;
 	margin-left: 15%;
+}
+
+
+/* Responsive CSS */
+
+@media (max-width: 1110px) {
+       .section-image.pull-left,
+       .section-image.pull-right{
+		display: block;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+	.section-heading.left{
+		display: block;	
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}		
+	
+	.section-content.push-right{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
 }
