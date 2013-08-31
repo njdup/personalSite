@@ -227,7 +227,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 }
 
 .section-heading.left{
-	margin-left: 100px;
+	margin-left: 12%;
 }
 
 .section-content{
@@ -239,10 +239,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 #email-link{
 	color: #65944A;
 	font: 20px bold;
-	margin-left: 25px;
-	margin-top: 20px;
-	padding-bottom: 20px;
-	display: inline-block;
 }
 
 #email_icon{
@@ -265,4 +261,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	padding-top: 10px;
 	 color: #65944A;
 	 font: 20px bold;
+}
+
+.icon{
+	margin: 20px;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+/* .icon.left{
+	margin-left: 5%;
+} */
+
+.icon-section a:hover{
+      border: 4px solid #65944A;
+      border-radius: 100px;
 }
