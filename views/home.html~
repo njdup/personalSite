@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset-"utf-8">
+  <title>Nicholas Dupoux</title>
+  <meta name="author" content="Nicholas Dupoux">
+
+  <!--Styles-->
+  <link href="./styles.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Bubbler+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <!-- Header -->
+
+  <div class="header">
+    <div class="header-content">
+      <h1 id="logo"><a href="#">Nicholas Dupoux</a></h1>
+      <h2 id="slogan">Stanford CS Student, Web Developer, Software Engineer, Designer</h2>
+      <!-- Menu -->
+      <ul>
+	<li><a href="#aboutme">About me</a></li>
+	<li><a href="#resume">Resume</a></li>
+	<li><a href="#projects">Projects</a></li>
+	<li><a href="#blog">Blog</a></li>
+	<li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Image Banner -->
+  <div class="banner">
+    <img src="https://sphotos-a-iad.xx.fbcdn.net/hphotos-ash3/539020_10201583727852364_336749006_n.jpg">
+  </div>
+
+  <!-- Main Content -->
+  <div class="content-wrapper">
+    <div class="content">
+      <div class="welcome-message">
+	<h1>Welcome!</h1>
+	<p> Thanks for visiting my site! </p>
+      </div>
+      
+      <hr class="content-divider first-divide">
+
+      <div class="section">
+	<img class="section-image pull-left" src="https://sphotos-a-iad.xx.fbcdn.net/hphotos-ash3/526461_10201583430484930_1806067384_n.jpg">
+	<h2 class="section-heading">I am an undergraduate at Stanford University</h2>
+	<p class="section-content"> pursuing a bachelors degree in Computer Science. I will be a
+	sophomore starting this fall, and plan to take as many computer science, design, and entrepreneurship classes as humanly possible. Over the past few months, I have developed an interest in business, start-up culture, and entrepreneurship, but my true passion still lies in software engineering, web development, and the pure craftmanship of code. <br>
+I am currently the web developer for the Stanford Robotics Club, and am hard at work developing its officially website. My long-term goals include gaining real-world development experience through software engineering internships, working as part of a start-up, working in the Space industry as a software engineer, and one day attending graduate school to pursue a PhD. </p>
+      </div>
+      
+    </div>
+  </div>
+      
+</body>
+
+</html>

@@ -236,33 +236,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	margin-right: 10px;
 }
 
-#email-link{
+.section-content a{
 	color: #65944A;
 	font: 20px bold;
-	margin-left: 25px;
+	margin-left: 100px;
 	margin-top: 20px;
 	padding-bottom: 20px;
-	display: inline-block;
-}
-
-#email_icon{
-	float:left;
-}
-
-.icon-divider{
-	margin: 15px;
-}
-
-.social_icon{
-	margin: 25px;
-	margin-top: 10px;
-	float:left;
-}
-
-.social_link{
-	display: inline-block;
-	margin: 40px;
-	padding-top: 10px;
-	 color: #65944A;
-	 font: 20px bold;
 }
