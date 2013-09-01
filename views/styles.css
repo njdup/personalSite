@@ -125,13 +125,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 	height: 360px;
 	background-color: black;
 	border-bottom: solid 4px black;
+	text-align: center;
 }
 
 .banner img {
-       width: 80%;
        height: 100%;
-       padding-left: 10%;
-       padding-right: 10%;
 }
 
 /* Main Content */
