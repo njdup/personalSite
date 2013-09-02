@@ -11,6 +11,8 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+  <script src="./animation.js"></script>
 </head>
 
 <body>
@@ -32,7 +34,19 @@
   
   <!-- Image Banner -->
   <div class="banner">
-    <img src="http://farm4.staticflickr.com/3803/9643249876_5b06d3c50c_o.jpg">
+<!--    <img src="http://farm4.staticflickr.com/3803/9643249876_5b06d3c50c_o.jpg"> -->
+     <div id="firstLine">
+       <p class="terminal">njdup@deepthoughtsofdupoux.com$ </p>
+       <o class="terminal" id="cursor">_</p>
+     </div>
+   <div id="secondLine"></div>
+   <div id="thirdLine"></div>
+   <script type="text/javascript">
+     animation();
+     animationPartTwo();
+     animationPartThree();
+     runningAnimation();
+   </script>
   </div>
 
   <!-- Main Content -->

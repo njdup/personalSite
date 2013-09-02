@@ -340,3 +340,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 		text-align: center;
 	}
 }
+
+
+/* Banner Animation Styles */
+
+.terminal{
+	display: inline;
+	font: 16px;
+	margin-left: 10px;
+}
+
+.banner{
+	color: #00FF33;
+	text-align: left;
+}
