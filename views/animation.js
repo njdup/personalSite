@@ -58,7 +58,7 @@ function animationPartThree(){
     function run(){
 	var location = document.getElementById("thirdLine");
 	var p = document.createElement("p");
-	var node = document.createTextNode("njdup@deepthoughtsofdupoux.com$");
+	var node = document.createTextNode("njdupoux@stanford.edu$");
 	p.setAttribute("id", "userInfo");
 	p.setAttribute("class", "terminal");
 	p.appendChild(node);
@@ -83,7 +83,7 @@ function runningAnimation(){
 	function addCursor(){
 	    var location = document.getElementById("thirdLine");
 	    var cursor = document.createElement("p");
-	    var text = document.createTextNode(" _");
+	    var text = document.createTextNode("_");
 	    cursor.appendChild(text);
 	    cursor.setAttribute("id", "cursor");
 	    cursor.setAttribute("class", "terminal");
